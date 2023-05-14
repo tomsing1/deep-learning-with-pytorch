@@ -1,15 +1,13 @@
 # Deep Learning with PyTorch
 
-This repository documents my progress of working through the 
+[This repository](https://github.com/tomsing1/deep-learning-with-pytorch)
+documents my progress of working through the 
 [Deep Learning with PyTorch](https://github.com/deep-learning-with-pytorch/dlwpt-code)
 book and the associated code examples.
 
 The book contains three parts:
 
 - Part 1: an introduction into deep learning modules and PyTorch.
-  - Datasets are usually small, and the code often uses data sources that
-    can be loaded with built-in PyTorch functions. This allowed me to
-    work through the chapters using Google Colab.
 - Part 2: developing ML models to analyze Ct scans for cancer detection.
   - The full [LUNA16](https://zenodo.org/record/3723295)
     dataset is relatively large (~ 225 Gb of uncompressed images), exceeding
@@ -25,4 +23,7 @@ the download & storage of the LUNA16 dataset, in the `docs` folder:
 - [Data retrieval and storage](docs/1_data_retrieval.md)
 
 
-    
+## Useful references
+
+- [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
+- [Jupyterlab - common keyboard shortcuts](https://gist.github.com/discdiver/9e00618756d120a8c9fa344ac1c375ac)

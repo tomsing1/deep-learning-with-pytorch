@@ -1,7 +1,16 @@
 ## Setting up a cloud workstation    
 
-To step throught the examples of part 2 of the book, I created a Notebook project
-on [Paperspace gradient](https://www.paperspace.com/).
+The datasets used in part 1 of the book are usually small, 
+and the code often uses data sources that can be loaded with
+built-in PyTorch functions. This allowed me to work through
+the chapters using Google Colab.
+
+To step throught the examples of part 2 of the book, I created a 
+Notebook project on [Paperspace gradient](https://www.paperspace.com/)
+to 
+
+1. get access to more powerful GPUs and
+2. leverage storage on AWS S3 (and mount buckets as if they were posix folders)
  
 ### Installing dependencies
 
