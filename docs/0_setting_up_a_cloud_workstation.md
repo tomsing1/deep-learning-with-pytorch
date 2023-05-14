@@ -7,10 +7,10 @@ the chapters using Google Colab.
 
 To step throught the examples of part 2 of the book, I created a 
 Notebook project on [Paperspace gradient](https://www.paperspace.com/)
-to 
+to
 
 1. get access to more powerful GPUs and
-2. leverage storage on AWS S3 (and mount buckets as if they were posix folders)
+2. leverage storage on S3 (and mount buckets as if they were posix folders)
  
 ### Installing dependencies
 
@@ -31,7 +31,9 @@ file in this repository.
 ### Data storage on AWS S3
 
 Because the free storage capacity of a Paperspace Gradient notebook is limited,
-I stored the decompressed LUNA16 data in an AWS S3 bucket instead. The bucket
+I stored the decompressed LUNA16 data in an S3 bucket hosted on 
+[Wasabi](https://wasabi.com/)
+instead. The S3 bucket
 [is mounted as a dataset](https://docs.paperspace.com/gradient/data/#configure-your-storage-bucket) 
 in the `/datasets/luna16` folder of the virtual server (but the files are
 actually read from S3).

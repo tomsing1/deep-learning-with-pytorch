@@ -9,9 +9,6 @@ The book contains three parts:
 
 - Part 1: an introduction into deep learning modules and PyTorch.
 - Part 2: developing ML models to analyze Ct scans for cancer detection.
-  - The full [LUNA16](https://zenodo.org/record/3723295)
-    dataset is relatively large (~ 225 Gb of uncompressed images), exceeding
-    the storage available in Google Colab. 
 - Part 3: Deployment
 
 ## Table of contents
