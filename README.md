@@ -46,6 +46,16 @@ authors, e.g.
   - `unet.py`
   - `util.py`
 
+## Python modules used in Part 2 of the book
+
+- [cassandra-driver](https://github.com/datastax/python-driver)
+    - A Python client library for Apache Cassandra (2.1+)
+    - Used in `disk.py`: `from cassandra.cqltypes import BytesType` to distinguish between gzip-compressed and other on-disk cache files.
+- [SimpleITK](https://simpleitk.readthedocs.io/en/master/gettingStarted.html#python-binary-files)
+    - A Python API for the algorithms and data structures of the [Insight Toolkit (ITK)](https://github.com/InsightSoftwareConsortium/ITK).
+    - Processing, segmentation, and registration of scientific images in two, three, or more dimensions
+
+
 ## Useful references
 
 - [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)
