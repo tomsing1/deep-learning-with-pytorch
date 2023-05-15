@@ -32,6 +32,19 @@ Additional dependencies that need to be installed are documented in the
 `requirements.txt` file. (Additional modules don't persists on paperspace
 between restarts of the notebook environment.)
 
+## Helper modules
+
+Part 2 of the book includes a number of helper modules provided by the
+authors, e.g.
+
+- `p2ch10/`
+  - `dsets.py`
+  - `vis.py`
+- `util/`
+  - `disk.py`: defines the `GzipDisk` class and provides the `getCache()` function to set up a `diskcache.FanoutCache`.
+  - `logconf.py`
+  - `unet.py`
+  - `util.py`
 
 ## Useful references
 
