@@ -2,7 +2,7 @@
 .gradient/
 
 # Datasets & temporary folders
-data-unversioned/
+cache/
 
 *.bundle.*
 lib/
