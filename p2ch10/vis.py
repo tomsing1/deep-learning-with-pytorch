@@ -8,13 +8,14 @@ from p2ch10.dsets import Ct, LunaDataset
 
 clim=(-1000.0, 300)
 
-def findPositiveSamples(start_ndx=0, limit=100):
+def findPositiveSamples(start_ndx=0, limit=100, verbose=False):
     ds = LunaDataset()
 
     positiveSample_list = []
     for sample_tup in ds.candidateInfo_list:
         if sample_tup.isNodule_bool:
-            print(len(positiveSample_list), sample_tup)
+            if verbose:
+                print(len(positiveSample_list), sample_tup)
             positiveSample_list.append(sample_tup)
 
         if len(positiveSample_list) >= limit:
@@ -92,8 +93,7 @@ def showCandidate(series_uid, batch_ndx=None, **kwargs):
             for label in (subplot.get_xticklabels() + subplot.get_yticklabels()):
                 label.set_fontsize(20)
             plt.imshow(ct_a[index], clim=clim, cmap='gray')
-
-
+    plt.show()
     print(series_uid, batch_ndx, bool(pos_t[0]), pos_list)
 
 
